@@ -7,6 +7,7 @@ body {
     background-color: #E5E5E5;
     text-align: center;
     padding-top: 250px;
+    height: 768px;
 }
 
 .intro {
@@ -30,31 +31,28 @@ body {
     margin-left: 100px;
 }
 
-.content {
-    margin-bottom: 500px;
-    display: block;
-}
 
 /* nav */
-
 .icon {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 85%;
     transform: translate(-50%,-50%);
     width: 80px;
     height: 60px;
     cursor: pointer;
+    transform: rotate(90deg);
+    
+
   }
   
   .arrow {
     position: absolute;
-    top: 25px;
     width: 90%;
     height: 10px;
     background-color: #8A2F3F;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
     animation: arrow 700ms linear infinite;
+
   }
   
   .arrow::after, .arrow::before {
@@ -77,9 +75,6 @@ body {
     transform: rotate(-45deg);
   } 
 
-  .scroll a {
-      padding-top: 50px;
-  }
 
 .hamburger-menu {
     height: 64px;
@@ -118,8 +113,6 @@ ul {
 
 
 /* nav page */
-
-
 #hero-nav {
     background-color: #E5E5E5;
     height: 768px;
