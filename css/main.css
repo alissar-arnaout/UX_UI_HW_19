@@ -1,0 +1,99 @@
+body {
+    font-family: 'Carrois Gothic', 'open sans', 'Roboto';
+    color: #323233;
+}
+
+#hero {
+    background-color: #E5E5E5;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.intro {
+    font-size: 30px;
+    color: #323233;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.intro-details {
+    font-size: 30px;
+    color: #323233;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.pronunciation {
+    font-size: 20px;
+    color:#8A2F3F;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.arrow {
+    height: 74px;
+    width: 74px;
+    padding: 16px;
+    margin-top: 170px;
+}
+
+
+/* nav */
+.hamburger-menu {
+    height: 64px;
+    width: 64px;
+    float: right;
+    margin-top: 38px;
+    margin-right: 68px;
+}
+
+.logo {
+    width: 268px;
+    height: 268px;
+    margin-top: 240px;
+    margin-bottom: 30px;
+}
+
+#exit {
+    float: right;
+    display: block;
+}
+
+#exit img {
+    height: 64px;
+    width: 64px;
+    margin-top: 38px;
+    margin-right: 38px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 274px;
+    display: inline-block;
+}
+
+
+
+/* nav page */
+#nav {
+    height: 1024px;
+}
+.exit {
+    height: 64px;
+    width: 64px;
+    float: right;
+    margin-top: 38px;
+    margin-right: 68px;
+}
+
+.centre {
+    display: block;
+}
+
+.nav-item {
+    display: block;
+    font-size: 40px;
+    color: #323233;
+    line-height: 100px;
+}
