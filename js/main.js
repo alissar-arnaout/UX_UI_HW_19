@@ -1,2 +1,13 @@
+const $icon = document.querySelector('.icon');
+const $arrow = document.querySelector('.arrow');
 
-console.log("Your js file is loading!");
+$icon.onclick = () => {
+  $arrow.animate([
+    {left: '0'},
+    {left: '10px'},
+    {left: '0'}
+  ],{
+    duration: 700,
+    iterations: Infinity
+  });
+}
